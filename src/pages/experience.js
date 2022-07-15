@@ -8,14 +8,12 @@ import allExperience from '../data/experienceData'
 import allEducation from '../data/educationData'
 import allSkills from '../data/skillData'
 import allAchievements from '../data/achievementsData'
-import allActivities from '../data/activitiesData'
 
 const ExperiencePage = () => {
   const experience = []
   const education = []
   const skills = []
   const achievements = []
-  const activities = []
 
   for (const element of allExperience) {
     experience.push(
@@ -54,19 +52,6 @@ const ExperiencePage = () => {
     )
   }
 
-  for (const element of allActivities) {
-    activities.push(
-      <Dropdown
-          title={element.title}
-          company={element.company}
-          date={element.date}
-          image={element.image}
-          description={element.description}
-          key={element.title}
-        />
-    )
-  }
-
   for (const element of allAchievements) {
     achievements.push(
             <EduCard
@@ -95,11 +80,6 @@ const ExperiencePage = () => {
         <h1>Skills</h1>
         <div>
             {skills}
-        </div>
-
-        <h1>Activities</h1>
-        <div>
-            {activities}
         </div>
 
         <h1>Achievements</h1>

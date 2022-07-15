@@ -1,7 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
-import logo from '../../logo.svg'
+import logo from '../../images/defaultImage.png'
 import classNames from 'classnames'
 
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
@@ -9,7 +8,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
 
   const updateRoute = (location) => {
     if (window.location.hash !== '') {
-      history.pushState('', document.title, window.location.pathname)
+      // history.pushState('', document.title, window.location.pathname)
       navigate('/')
     }
     setCurrentRoute(location)
@@ -22,7 +21,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         <div className="grow flex flex-row justify-around max-w-xxs">
           {navigationData.map((item, index) => (
           <p className={classNames([
-            'hover:text-amber-500 cursor-pointer font-mono text-sm selection:bg-amber-400',
+            'hover:text-yellow-400 cursor-pointer font-mono text-sm selection:bg-yellow-300',
             currentRoute === item && 'text-gray-700 titleUnderline'])}
             key={index}
             onClick={() => updateRoute(item)}>

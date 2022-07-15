@@ -1,2 +1,2 @@
-const pages = ['Home', 'Experience', 'Projects']
+const pages = ['Home', 'Experience', 'Activities']
 export default pages

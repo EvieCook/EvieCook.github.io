@@ -1,50 +1,16 @@
-import codeImage from '../images/code.jpg'
-import softwareImage from '../images/software.jpg'
-import dataImage from '../images/data.jpg'
+import defaultImage from '../images/defaultImage.png'
 
 const allSkills = [
   {
-    category: 'Programming Languages',
-    image: codeImage,
+    category: 'Example Category',
+    image: defaultImage,
     skills:
         [
-          'Python',
-          'C++',
-          'JavaScript',
-          'Java',
-          'SQL'
+          'Skill 1',
+          'Skill 2',
+          'Skill 2',
         ]
   },
-  {
-    category: 'Software Tools',
-    image: softwareImage,
-    skills:
-        [
-          'Git',
-          'Linux',
-          'Visual Studio Code',
-          'DevTools',
-          'Vim',
-          'Adobe Suite',
-          'SolidWorks'
-        ]
-  },
-  {
-    category: 'Frameworks and Libraries',
-    image: dataImage,
-    skills:
-        [
-          'Cypress',
-          'Vue',
-          'Qt',
-          'Selenium',
-          'OpenGL',
-          'SFML',
-          'React',
-          'Pandas',
-          'NumPy'
-        ]
-  }
 ]
 
 export default allSkills
