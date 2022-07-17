@@ -6,7 +6,7 @@ const allAchievements = [
     image: defaultImage,
     date: 'September 2021 - Prest',
     company: 'Example Organization'
-  },
+  }
 ]
 
 export default allAchievements

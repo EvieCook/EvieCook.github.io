@@ -16,7 +16,7 @@ const allExperience = [
                 </ul>
             </>
 
-  },
+  }
 ]
 
 export default allExperience

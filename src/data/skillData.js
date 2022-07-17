@@ -8,9 +8,9 @@ const allSkills = [
         [
           'Skill 1',
           'Skill 2',
-          'Skill 2',
+          'Skill 2'
         ]
-  },
+  }
 ]
 
 export default allSkills

@@ -6,7 +6,7 @@ const allActivities = [
     description: 'Example Description',
     image: defaultImage,
     link: 'exampleproject'
-  },
+  }
 ]
 
 export default allActivities
