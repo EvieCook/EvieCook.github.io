@@ -17,7 +17,7 @@ const ContactButton = () => {
     component =
       <p
         onClick={() => setShowing(true)}
-        className={'inline-block px-6 py-2.5 bg-gray-700  border-yellow-400 border-b-2 font-bold text-white rounded shadow-lg hover:bg-yellow-400 active:bg-yellow-500 transition duration-150 ease-in-out'}
+        className={'inline-block px-6 py-2.5 bg-gray-700  border-emerald-800 border-b-2 font-bold text-white rounded shadow-lg hover:bg-emerald-800 active:bg-emerald-900 transition duration-150 ease-in-out'}
       >
         Click for Details
       </p>

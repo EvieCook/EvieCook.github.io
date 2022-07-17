@@ -2,11 +2,18 @@ import defaultImage from '../images/defaultImage.png'
 
 const allAchievements = [
   {
-    title: 'Example Achievement',
+    title: 'Certified SolidWorks Associate ',
     image: defaultImage,
-    date: 'September 2021 - Prest',
-    company: 'Example Organization'
+    date: 'November 2021',
+    company: 'SOLIDWORKS'
+  },
+  {
+    title: 'Vanguard Scholars Program',
+    image: defaultImage,
+    date: 'August 2019 - Present',
+    company: 'Colorado School of Mines'
   }
+
 ]
 
 export default allAchievements

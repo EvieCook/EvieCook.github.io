@@ -3,16 +3,33 @@ import defaultImage from '../images/defaultImage.png'
 
 const allExperience = [
   {
-    title: 'Example Internship',
-    company: 'Example Company',
-    date: 'May 2022 - Present',
+    title: 'Technical College Intern - Tooling',
+    company: 'Northrop Grumman',
+    date: 'June 2022 - Present',
     image: defaultImage,
     description:
             <>
                 <ul className="list-disc">
-                    <li>Example bullet point #1</li>
-                    <li>Example bullet point #2</li>
-                    <li>Example bullet point #3</li>
+                    <li>Wrote technical write-ups</li>
+                    <li>Computed machine design related hand-calculations</li>
+                    <li>Ran finite element anlysis simulations</li>
+                    <li>Determined tool discrepencies and procurement of new tools</li>
+                    <li>Produced technical engineering drawings</li>
+                </ul>
+            </>
+
+  },
+  {
+    title: 'Metallurgical Research Assistant',
+    company: 'Colorado School of Mines',
+    date: 'October 2020 - May 2021',
+    image: defaultImage,
+    description:
+            <>
+                <ul className="list-disc">
+                    <li>Assisted with the assembly of vacuum-sealed lab equipment</li>
+                    <li>Worked to troubleshhot complex systems</li>
+                    <li>Communicated with equipment suppliers</li>
                 </ul>
             </>
 

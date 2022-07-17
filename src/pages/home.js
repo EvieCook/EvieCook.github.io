@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
         <>
         <h1>Evelyn Cook</h1>
-        <p>Your Bio Here :)</p>
+        <p>I am a mechanical engineer with a passion for sharing my love of Science, Technology, Engineering, and Math with younger generations. I value hardwork, dedication, and devotion to this ever growing field.  </p>
         <CaptionedImages image={defaultImage} alt="Portrait of Evelyn Cook" maxHeight={72}/>
 
         <br></br>

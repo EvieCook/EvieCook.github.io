@@ -21,7 +21,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         <div className="grow flex flex-row justify-around max-w-xxs">
           {navigationData.map((item, index) => (
           <p className={classNames([
-            'hover:text-yellow-400 cursor-pointer font-mono text-sm selection:bg-yellow-300',
+            'hover:text-emerald-800 cursor-pointer font-mono text-sm selection:bg-emerald-700',
             currentRoute === item && 'text-gray-700 titleUnderline'])}
             key={index}
             onClick={() => updateRoute(item)}>
