@@ -1,5 +1,5 @@
 import React from 'react'
-import defaultImage from '../images/northropGrumman.png'
+import nothropGrumman from '../images/northropGrumman.png'
 import defaultImage from '../images/defaultImage.png'
 
 const allExperience = [
