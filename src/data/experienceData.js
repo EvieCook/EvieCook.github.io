@@ -1,5 +1,5 @@
 import React from 'react'
-import nothropGrumman from '../images/northropGrumman.png'
+import northropGrumman from '../images/northropGrumman.png'
 import mines from '../images/mines.jpg'
 
 const allExperience = [
