@@ -1,6 +1,6 @@
 import React from 'react'
 import northropGrumman from '../images/northropGrumman.png'
-import mines from '../images/mines.jpg'
+import research from '../images/research.PNG'
 
 const allExperience = [
   {
@@ -22,9 +22,9 @@ const allExperience = [
   },
   {
     title: 'Metallurgical Research Assistant',
-    company: 'Colorado School of Mines',
+    company: 'Colorado School of Mines', 
     date: 'October 2020 - May 2021',
-    image: mines,
+    image: research,
     description:
             <>
                 <ul className="list-disc">
