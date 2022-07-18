@@ -1,15 +1,16 @@
-import defaultImage from '../images/defaultImage.png'
+import solidWorks from '../images/solidWorks.png'
+import wisem from '../images/wisem.png'
 
 const allAchievements = [
   {
     title: 'Certified SolidWorks Associate ',
-    image: defaultImage,
+    image: solidWorks,
     date: 'November 2021',
     company: 'SOLIDWORKS'
   },
   {
     title: 'Vanguard Scholars Program',
-    image: defaultImage,
+    image: wisem,
     date: 'August 2019 - Present',
     company: 'Colorado School of Mines'
   }
