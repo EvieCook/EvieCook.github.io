@@ -1,9 +1,11 @@
-import defaultImage from '../images/defaultImage.png'
+import cad from '../images/cad.jpg'
+import code from '../images/code.jpg'
+import chart from '../images/chart.jpg'
 
 const allSkills = [
   {
     category: 'CAD & Simulation',
-    image: defaultImage,
+    image: cad,
     skills:
         [
           'Certified SolidWorks Associate (CSWA)',
@@ -16,7 +18,7 @@ const allSkills = [
   },
   {
     category: 'Coding Programs',
-    image: defaultImage,
+    image: code,
     skills:
         [
           'LabView',
@@ -29,7 +31,7 @@ const allSkills = [
   },
   {
     category: 'Miscellaneous',
-    image: defaultImage,
+    image: chart,
     skills:
         [
           'Technical Writing',
