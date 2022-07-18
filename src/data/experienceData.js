@@ -1,4 +1,5 @@
 import React from 'react'
+import defaultImage from '../images/northropGrumman.png'
 import defaultImage from '../images/defaultImage.png'
 
 const allExperience = [
@@ -6,7 +7,7 @@ const allExperience = [
     title: 'Technical College Intern - Tooling',
     company: 'Northrop Grumman',
     date: 'June 2022 - Present',
-    image: defaultImage,
+    image: northropGrumman,
     description:
             <>
                 <ul className="list-disc">

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Pages.css'
 import ContactButton from '../components/ContactButton/contactButton'
-import clearPhoto from '../images/defaultImage.png'
+import clearPhoto from '../images/clearPhoto.JPG'
 import CaptionedImages from '../components/CaptionedImage/CaptionedImage'
 
 const HomePage = () => {
