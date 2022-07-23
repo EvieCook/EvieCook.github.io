@@ -14,7 +14,7 @@ const EduCard = ({ category, image, skills }) => {
                     <img src={image} className={'h-48 w-full object-cover md:h-full md:w-48'} alt={category + ' graphic'}></img>
                 </div>
                 <div className="flex flex-col grow justify-center p-8">
-                    <div className="text-center text-emerald-800">{category}</div>
+                    <div className="text-center text-emerald-800 font-bold">{category}</div>
                     <div className="flex flex-col justify-center">{allSkills}</div>
                 </div>
                 </div>

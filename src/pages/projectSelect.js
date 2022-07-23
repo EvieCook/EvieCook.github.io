@@ -2,12 +2,12 @@ import React from 'react'
 import './Pages.css'
 
 import Tile from '../components/Tile/Tile'
-import allActivities from '../data/activitiesData'
+import allProjects from '../data/projectData'
 
-const ActivitySelect = () => {
+const ProjectSelect = () => {
   const tiles = []
 
-  allActivities.forEach(element => {
+  allProjects.forEach(element => {
     tiles.push(
             <Tile
                 title={element.title}
@@ -20,7 +20,7 @@ const ActivitySelect = () => {
 
   return (
         <>
-            <h1>My Activities:</h1>
+            <h1>My Projects:</h1>
             <div className='flex flex-wrap justify-center mt-10 gap-8'>
                 {tiles}
             </div>
@@ -28,4 +28,4 @@ const ActivitySelect = () => {
   )
 }
 
-export default ActivitySelect
+export default ProjectSelect
