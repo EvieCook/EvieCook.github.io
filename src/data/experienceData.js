@@ -22,7 +22,7 @@ const allExperience = [
   },
   {
     title: 'Metallurgical Research Assistant',
-    company: 'Colorado School of Mines', 
+    company: 'Colorado School of Mines',
     date: 'October 2020 - May 2021',
     image: research,
     description:
