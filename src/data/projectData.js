@@ -33,6 +33,13 @@ const allProjects = [
     description: 'Example Description',
     image: defaultImage,
     link: 'vanguardscholarsprogram'
+  },
+
+  {
+    title: 'Senior Capstone',
+    description: 'Example Description',
+    image: defaultImage,
+    link: 'seniorcapstone'
   }
 ]
 

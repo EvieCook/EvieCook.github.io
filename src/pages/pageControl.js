@@ -6,21 +6,21 @@ const ProjectSelect = React.lazy(() => import('./projectSelect'))
 const ExperiencePage = React.lazy(() => import('./experience'))
 const Page404 = React.lazy(() => import('./page404'))
 
-const ExampleProject = React.lazy(() => import('./projects/exampleActivity'))
 const GirlScoutEngineeringDay = React.lazy(() => import('./projects/girlScoutEngineeringDay'))
 const GirlsAreSmart = React.lazy(() => import('./projects/girlsAreSmart'))
 const SocietyOfWomenEngineers = React.lazy(() => import('./projects/societyOfWomenEngineers'))
 const VanguardScholarsProgram = React.lazy(() => import('./projects/vanguardScholarsProgram'))
+const SeniorCapstone = React.lazy(() => import('./projects/seniorCapstone'))
 
 const allPages = {
   Home: <HomePage/>,
   Projects: <ProjectSelect/>,
   Experience: <ExperiencePage/>,
-  exampleproject: <ExampleProject/>,
   girlscoutengineeringday: <GirlScoutEngineeringDay/>,
   girlsaresmart: <GirlsAreSmart/>,
   societyofwomenengineers: <SocietyOfWomenEngineers/>,
-  vanguardscholarsprogram: <VanguardScholarsProgram/>
+  vanguardscholarsprogram: <VanguardScholarsProgram/>,
+  seniorcapstone: <SeniorCapstone/>
 }
 
 const CurrentPage = ({ currentRoute }) => {
