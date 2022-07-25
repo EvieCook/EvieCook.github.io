@@ -11,11 +11,11 @@ const allExperience = [
     description:
             <>
                 <ul className="list-disc">
-                    <li>Wrote technical write-ups</li>
-                    <li>Computed machine design related hand-calculations</li>
-                    <li>Ran finite element anlysis simulations</li>
-                    <li>Determined tool discrepencies and procurement of new tools</li>
-                    <li>Produced technical engineering drawings</li>
+                    <li>Supported production of graphite epoxy motor cases for the defense and commercical areospcae industry</li>
+                    <li>Ran finite element analysis simulations and validated them with hand calculations on stress and structural components</li>
+                    <li>Supported manufacturing floor by resolving discrepant tooling, utilized floor management program Maximo</li>
+                    <li>Worked with outside vendors and procurement team to guarantee cost-effective and timely purchasing of warehouse equipment and tools</li>
+                    <li>Produced technical engineering drawings following Geometric Dimensioning and Tolerancing (GD&T) and drafting standards</li>
                 </ul>
             </>
 
@@ -28,9 +28,10 @@ const allExperience = [
     description:
             <>
                 <ul className="list-disc">
-                    <li>Assisted with the assembly of vacuum-sealed lab equipment</li>
-                    <li>Worked to troubleshhot complex systems</li>
-                    <li>Communicated with equipment suppliers</li>
+                    <li>Assisted with the assembly of multi-million dollar vacuum-sealed lab equipment</li>
+                    <li>Worked to troubleshoot complex systems</li>
+                    <li>Communicated with third-party equipment suppliers</li>
+                    <li>Installation of structured cabling systems</li>
                 </ul>
             </>
 
