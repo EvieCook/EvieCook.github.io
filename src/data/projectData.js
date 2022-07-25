@@ -19,6 +19,20 @@ const allProjects = [
     description: 'Example Description',
     image: defaultImage,
     link: 'girlsaresmart'
+  },
+
+  {
+    title: 'Society of Women Engineers',
+    description: 'Example Description',
+    image: defaultImage,
+    link: 'societyofwomenengineers'
+  },
+
+  {
+    title: 'Vanguard Scholars Program',
+    description: 'Example Description',
+    image: defaultImage,
+    link: 'vanguardscholarsprogram'
   }
 ]
 
