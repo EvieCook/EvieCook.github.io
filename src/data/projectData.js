@@ -12,6 +12,13 @@ const allProjects = [
     description: 'Example Description',
     image: defaultImage,
     link: 'girlscoutengineeringday'
+  },
+
+  {
+    title: 'Girls Are S.M.A.R.T.',
+    description: 'Example Description',
+    image: defaultImage,
+    link: 'girlsaresmart'
   }
 ]
 

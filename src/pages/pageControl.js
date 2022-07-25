@@ -8,13 +8,15 @@ const Page404 = React.lazy(() => import('./page404'))
 
 const ExampleProject = React.lazy(() => import('./projects/exampleActivity'))
 const GirlScoutEngineeringDay = React.lazy(() => import('./projects/girlScoutEngineeringDay'))
+const GirlsAreSmart = React.lazy(() => import('./projects/girlsAreSmart'))
 
 const allPages = {
   Home: <HomePage/>,
   Projects: <ProjectSelect/>,
   Experience: <ExperiencePage/>,
   exampleproject: <ExampleProject/>,
-  girlscoutengineeringday: <GirlScoutEngineeringDay/>
+  girlscoutengineeringday: <GirlScoutEngineeringDay/>,
+  girlsaresmart: <GirlsAreSmart/>
 }
 
 const CurrentPage = ({ currentRoute }) => {
