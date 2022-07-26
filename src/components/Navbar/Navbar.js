@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import logo from '../../images/defaultImage.png'
+import logo from '../../images/logo2.jpeg'
 import classNames from 'classnames'
 
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
