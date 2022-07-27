@@ -5,7 +5,7 @@ import '../Pages.css'
 const SeniorCapstone = () => {
   return (
         <>
-        <h1>Example Project</h1>
+        <h1>Product Owner of Capstone Project</h1>
         <p>Example Text</p>
         </>
   )
