@@ -11,12 +11,12 @@ import GaSCB from '../../images/GaSCB.jpg'
 const GirlsAreSmart = () => {
   return (
         <>
-         <h1>Girls are S.M.A.R.T. Co-Director</h1>
-        <p></p>
+        <h1>Girls are S.M.A.R.T. Co-Director</h1>
+        <p>Girls are S.M.A.R.T. (Studious, Mighty, Amazing, Resilient, and Talented) is a new event that will be hosted by Society of Women Engineers (SWE). The event invites first through fifth grades girls onto Mines campus to engage in STEM activites and explore what it means to be an engineer and scientist. At Girls are S.M.A.R.T., participants will: </p>
         <ul className='list-disc'>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Learn about the scientific process and design processes</li>
+          <li>Build problem-solving and communication skills</li>
+          <li>Engage with various fields of STEM</li>
         </ul>
         <CaptionedImage image={GaS1} caption="Evelyn Cook Interacting" maxHeight={72}/>
 
