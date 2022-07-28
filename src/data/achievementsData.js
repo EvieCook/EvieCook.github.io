@@ -1,5 +1,5 @@
 import solidWorks from '../images/solidWorks.png'
-import wisem from '../images/wisem.png'
+import vanguardLogo from '../images/vanguardLogo.jpeg'
 
 const allAchievements = [
   {
@@ -10,7 +10,7 @@ const allAchievements = [
   },
   {
     title: 'Vanguard Scholars Program',
-    image: wisem,
+    image: vanguardLogo,
     date: 'August 2019 - Present',
     company: 'Colorado School of Mines'
   }
