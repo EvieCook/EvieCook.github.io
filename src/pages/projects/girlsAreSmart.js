@@ -22,36 +22,36 @@ const GirlsAreSmart = () => {
 
         <p></p>
         <h2>Binary Bracelets</h2>
-        <p></p>
+        <p>This activity taught the participants how to spell their intials using binary and discussed the importance of binary within coding.</p>
         <p></p>
 
         <h2>Circuit Bugs</h2>
-        <p></p>
+        <p>This activity discussed the basics of circuits while using LED lights, wire and batteries to create glowing pipecleaner bugs.</p>
         <p></p>
         <CaptionedImage image={GaSCB} caption="Circuit Bugs Activity" maxHeight={72}/>
 
         <h2>Cotton Ball Launchers</h2>
-        <p></p>
+        <p>This activty included making small launchers to discuss potential and kinetic energy as the cotton ball was launched by the participant.</p>
         <p></p>
         <CaptionedImage image={GaSCL} caption="Cotton Ball Launcher Activity" maxHeight={72}/>
 
         <h2>Lava Lamps</h2>
-        <p></p>
+        <p>This activity used water, Alka-Seltzer, and oil to demonstrate the processes of density, difussion, and an acid-base chemical reaction while creating a glow in the dark lava lamp.</p>
         <p></p>
         <CaptionedImage image={GaSLL} caption="Lava Lamp Activity" maxHeight={72}/>
 
         <h2>Magnetic Putty</h2>
-        <p></p>
+        <p>This activity discussed the importance of magnetic fields and allowed the participants to move putty with magents.</p>
         <p></p>
         <CaptionedImage image={GaSMP} caption="Magnetic Putty Activity" maxHeight={72}/>
 
         <h2>Marshmellow Constellations</h2>
-        <p></p>
+        <p>This activity taught the importance the night sky holds and how constellations aid in navigation, food growth, and the tracking of time by making your own constellations.</p>
         <p></p>
         <CaptionedImage image={GaSC} caption="Marshmellow Constellations Activity" maxHeight={72}/>
 
         <h2>Pinecone Painting</h2>
-        <p></p>
+        <p>This activity allowed the participants to explore their craetive side while learning about the Fibonaci Spiral and its occurrences in nature.</p>
         <p></p>
         </>
   )

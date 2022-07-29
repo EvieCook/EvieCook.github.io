@@ -1,8 +1,8 @@
-import SWELogo from '../images/SWELogo.jpg'
-import GSEDLogo from '../images/GSEDLogo.jpg'
-import GaSLogo from '../images/GaSLogo.jpg'
-import capstoneLogo from '../images/capstoneLogo.jpg'
-import vanguardLogo from '../images/vanguardLogo.jpeg'
+import SWELogo from '../images/SWELogo.PNG'
+import GSEDLogo from '../images/GSEDLogo.PNG'
+import GaSBackground from '../images/GaSBackground.PNG'
+import capstoneTractor from '../images/capstoneTractor.PNG'
+import vanguardSwords from '../images/vanguardSwords.PNG'
 
 const allProjects = [
   {
@@ -14,29 +14,29 @@ const allProjects = [
 
   {
     title: 'Girls Are S.M.A.R.T.',
-    description: 'Example Description',
-    image: GaSLogo,
+    description: 'A state-wide event to introduce STEM to elementary students.',
+    image: GaSBackground,
     link: 'girlsaresmart'
   },
 
   {
     title: 'Society of Women Engineers',
-    description: 'Example Description',
+    description: 'A collegiate group of supportive and like-minded women engineers.',
     image: SWELogo,
     link: 'societyofwomenengineers'
   },
 
   {
     title: 'Vanguard Scholars Program',
-    description: 'Example Description',
-    image: vanguardLogo,
+    description: 'A group of scholars who embody leadership and collaboration.',
+    image: vanguardSwords,
     link: 'vanguardscholarsprogram'
   },
 
   {
     title: 'Senior Capstone',
-    description: 'Example Description',
-    image: capstoneLogo,
+    description: 'Restoring a 1927 Caterpillar Crawler Tractor.',
+    image: capstoneTractor,
     link: 'seniorcapstone'
   }
 ]
