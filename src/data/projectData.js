@@ -1,13 +1,13 @@
 import SWELogo from '../images/SWELogo.jpg'
-import GSEDLogo from '../images/GSEDLogo.png'
-import GaSLogo2 from '../images/GaSLogo2.jpg'
+import GSEDLogo from '../images/GSEDLogo.jpg'
+import GaSLogo from '../images/GaSLogo.jpg'
 import capstoneLogo from '../images/capstoneLogo.jpg'
 import vanguardLogo from '../images/vanguardLogo.jpeg'
 
 const allProjects = [
   {
     title: 'Girl Scout Engineering Day',
-    description: 'Example Description',
+    description: 'A state-wide event for Girl Scouts to engage in STEM activities.',
     image: GSEDLogo,
     link: 'girlscoutengineeringday'
   },
@@ -15,7 +15,7 @@ const allProjects = [
   {
     title: 'Girls Are S.M.A.R.T.',
     description: 'Example Description',
-    image: GaSLogo2,
+    image: GaSLogo,
     link: 'girlsaresmart'
   },
 
