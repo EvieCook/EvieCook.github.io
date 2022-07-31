@@ -3,6 +3,7 @@ import GSEDLogo from '../images/GSEDLogo.PNG'
 import GaSBackground from '../images/GaSBackground.PNG'
 import capstoneTractor from '../images/capstoneTractor.PNG'
 import vanguardSwords from '../images/vanguardSwords.PNG'
+import virtualClassroomTeacher from '../images/virtualClassroomTeacher.jpg'
 
 const allProjects = [
   {
@@ -38,7 +39,15 @@ const allProjects = [
     description: 'Restoring a 1927 Caterpillar Crawler Tractor.',
     image: capstoneTractor,
     link: 'seniorcapstone'
+  },
+
+  {
+    title: 'Virtual Classroom Teacher',
+    description: 'Teaching first graders about sound.',
+    image: virtualClassroomTeacher,
+    link: 'virtualclassroomteacher'
   }
+
 ]
 
 export default allProjects
