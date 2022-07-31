@@ -4,6 +4,7 @@ import GaSBackground from '../images/GaSBackground.PNG'
 import capstoneTractor from '../images/capstoneTractor.PNG'
 import vanguardSwords from '../images/vanguardSwords.PNG'
 import virtualClassroomTeacher from '../images/virtualClassroomTeacher.jpg'
+import labviewEasyBakeOven from '../images/labviewEasyBakeOven.png'
 
 const allProjects = [
   {
@@ -46,6 +47,13 @@ const allProjects = [
     description: 'Teaching first graders about sound.',
     image: virtualClassroomTeacher,
     link: 'virtualclassroomteacher'
+  },
+
+  {
+    title: 'LabView Easy Bake Oven',
+    description: 'Bake a cookie using LabView.',
+    image: labviewEasyBakeOven,
+    link: 'labvieweasybakeoven'
   }
 
 ]
