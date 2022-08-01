@@ -5,6 +5,7 @@ import capstoneTractor from '../images/capstoneTractor.PNG'
 import vanguardSwords from '../images/vanguardSwords.PNG'
 import virtualClassroomTeacher from '../images/virtualClassroomTeacher.jpg'
 import labviewEasyBakeOven from '../images/labviewEasyBakeOven.png'
+import cfdProject from '../images/cfdProject.jpg'
 
 const allProjects = [
   {
@@ -51,9 +52,16 @@ const allProjects = [
 
   {
     title: 'LabView Easy Bake Oven',
-    description: 'Bake a cookie using LabView.',
+    description: 'Bake a cookie using LabView Program.',
     image: labviewEasyBakeOven,
     link: 'labvieweasybakeoven'
+  },
+
+  {
+    title: 'CFD Simulation',
+    description: 'Simulate and compare air flow through a computer CPU and RAM Chip.',
+    image: cfdProject,
+    link: 'cfdproject'
   }
 
 ]

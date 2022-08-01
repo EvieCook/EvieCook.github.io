@@ -13,6 +13,7 @@ const VanguardScholarsProgram = React.lazy(() => import('./projects/vanguardScho
 const SeniorCapstone = React.lazy(() => import('./projects/seniorCapstone'))
 const VirtualClassroomTeacher = React.lazy(() => import('./projects/virtualClassroomTeacher'))
 const LabviewEasyBakeOven = React.lazy(() => import('./projects/labviewEasyBakeOven'))
+const CFDProject = React.lazy(() => import('./projects/cfdProject'))
 
 const allPages = {
   Home: <HomePage/>,
@@ -24,7 +25,8 @@ const allPages = {
   vanguardscholarsprogram: <VanguardScholarsProgram/>,
   seniorcapstone: <SeniorCapstone/>,
   virtualclassroomteacher: <VirtualClassroomTeacher/>,
-  labvieweasybakeoven: <LabviewEasyBakeOven/>
+  labvieweasybakeoven: <LabviewEasyBakeOven/>,
+  cfdproject: <CFDProject/>
 }
 
 const CurrentPage = ({ currentRoute }) => {
