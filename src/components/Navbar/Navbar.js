@@ -3,15 +3,15 @@ import { useNavigate } from 'react-router-dom'
 import logo from '../../images/logo2.jpeg'
 import classNames from 'classnames'
 
-const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
+const Navbar = () => {
   const navigate = useNavigate()
-
+  const navigationData = ['Home', 'Experience', 'Projects']
   const updateRoute = (location) => {
-    if (window.location.hash !== '') {
-      // history.pushState('', document.title, window.location.pathname)
-      navigate('/')
+    let currLocation = location.toLowerCase()
+    if (currLocation === 'home') {
+      currLocation = ''
     }
-    setCurrentRoute(location)
+    navigate(currLocation)
   }
 
   return (
@@ -21,8 +21,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         <div className="grow flex flex-row justify-around max-w-xxs">
           {navigationData.map((item, index) => (
           <p className={classNames([
-            'hover:text-emerald-800 cursor-pointer font-mono text-sm selection:bg-emerald-700',
-            currentRoute === item && 'text-gray-700 titleUnderline'])}
+            'hover:text-emerald-800 cursor-pointer font-mono text-sm selection:bg-emerald-700'])}
             key={index}
             onClick={() => updateRoute(item)}>
             {item}
@@ -36,3 +35,4 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
 }
 
 export default Navbar
+
