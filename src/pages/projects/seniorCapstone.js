@@ -10,7 +10,11 @@ const SeniorCapstone = () => {
   return (
         <>
         <h1>Product Owner of Capstone Project</h1>
-        <p>My senior capstone project is restoring a 1927 Caterpillar Crawler Model 20 Tractor with a 12-member team. The goal of the project is to accurately restore the tractor to its original glory and specifications. As product owner I manage the sprint backlog items and tasks to keep the team on a proper pace to complete the restoration within the timeframe. We utilize SCRUM through Agile Methodology of 2 week sprint cycles to deliever the project on time and within budget for the stakeholder at Lakewood Heritage Center. Being a part of this project has also allowed me to work with hand/power tools and observe mechanical operations.</p>
+        <p>My senior capstone project is restoring a 1927 Caterpillar Crawler Model 20 Tractor with a 12-member team. The goal of the project is to
+          accurately restore the tractor to its original glory and specifications. As product owner I manage the sprint backlog items and tasks to keep
+          the team on a proper pace to complete the restoration within the time frame. We utilize SCRUM through Agile Methodology of 2 week sprint cycles to deliver
+          the project on time and within budget for the stakeholder at Lakewood Heritage Center. Being a part of this project has also allowed me to work
+          with hand/power tools and observe mechanical operations.</p>
         <div className='flex flex-wrap gap-8 justify-center'>
           <CaptionedImage image={capstone2} caption="Tractor Brought on Campus" maxHeight={72}/>
           <CaptionedImage image={capstone3} caption="Cover and Plow Removed" maxHeight={72}/>

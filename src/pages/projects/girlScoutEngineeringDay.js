@@ -14,15 +14,19 @@ const GirlScoutEngineeringDay = () => {
   return (
         <>
         <h1>Girl Scout Engineering Day Director</h1>
-        <p>Every year, Society of Women Engineers (SWE) hosts Girl Scout Engineering Day, a statewide half-day outreach event for Girl Scout Juniors. They have the oppurtunity to be exposed to different areas within the Science, Technology, Engineering, and Math (STEM) values. Girl Scount Engineering Day prepares participants to:</p>
+        <p>Every year, Society of Women Engineers (SWE) hosts Girl Scout Engineering Day, a statewide half-day outreach event for Girl Scout Juniors.
+          They have the opportunity to be exposed to different areas within the Science, Technology, Engineering, and Math (STEM) values. Girl Scout
+          Engineering Day prepares participants to:</p>
         <ul className='list-disc'>
           <li>Define introductory science, engineering, and mathematics concepts</li>
-          <li>Demonstrate their interest in STEM-type classes, and extracurricular activites</li>
+          <li>Demonstrate their interest in STEM-type classes, and extracurricular activities</li>
           <li>Apply their learning to future hands-on experiences to complete the Girl Scout STEM patch</li>
         </ul>
-        <CaptionedImage image={GSED1} caption="Evelyn Cook Speaking" maxHeight={72}/>
+        <CaptionedImage image={GSED1} caption="Speaking at GSED 2021" maxHeight={72}/>
 
-        <p>As the Girl Scout Engineering Day Director, my role was organizing and planning the entire event. Seven activites were designed to introduce STEM to roughly 350 Girl Scout Juniors and taught by the help of over 40 volunteers. Using project managment skills to manage the event schedules, lead weekly meetings, and train volunteers.</p>
+        <p>As the Girl Scout Engineering Day Director, my role was organizing and planning the entire event. Seven activities were designed to introduce
+          STEM to roughly 350 Girl Scout Juniors and taught by the help of over 40 volunteers. Using project management skills to manage the event schedules,
+          lead weekly meetings, and train volunteers.</p>
         <p></p>
         <p></p>
 
@@ -37,17 +41,17 @@ const GirlScoutEngineeringDay = () => {
         <p></p>
 
         <h2>Fire Snake Shock Waves</h2>
-        <p>This activity demonstrated the chemical reaction of shockwaves and lead the discussion of explosivies and their importance in mining engineering.</p>
+        <p>This activity demonstrated the chemical reaction of shock waves and lead the discussion of explosives and their importance in mining engineering.</p>
         <CaptionedImage image={GSEDFS} caption="Shock Waves Activity" maxHeight={72}/>
         <p></p>
 
         <h2>Kaleidoscopes</h2>
-        <p>This activity allowed the participants to build kalediscopes while talking about light waves and their ability of refraction and reflection.</p>
+        <p>This activity allowed the participants to build kaleidoscopes while talking about light waves and their ability of refraction and reflection.</p>
         <CaptionedImage image={GSEDK} caption="Kaleidoscope Activity" maxHeight={72}/>
         <p></p>
 
         <h2>Magnetic Putty</h2>
-        <p>This activity discussed the importance of magnetic fields and allowed the participants to move putty with magents.</p>
+        <p>This activity discussed the importance of magnetic fields and allowed the participants to move putty with magnets.</p>
         <CaptionedImage image={GSEDMP} caption="Magnetic Putty Activity" maxHeight={72}/>
         <p></p>
 

@@ -17,7 +17,7 @@ const allSkills = [
         ]
   },
   {
-    category: 'Coding Programs',
+    category: 'Programming Languages',
     image: code,
     skills:
         [
@@ -30,13 +30,13 @@ const allSkills = [
         ]
   },
   {
-    category: 'Miscellaneous',
+    category: 'Other Skills',
     image: chart,
     skills:
         [
           'Technical Writing',
           'Agile',
-          'Time Mangement',
+          'Time Management',
           'Organization',
           'Communication'
         ]

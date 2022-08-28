@@ -21,7 +21,7 @@ const LabviewEasyBakeOven = () => {
           strong unit. The diagram below shows the relay switching device I used connected
           to the 12 Volt DC power supply completely wired and functioning.</p>
         <CaptionedImage image={labview1} caption="Electronic Setup" maxHeight={72}/>
-        <p>To run the oven, it was important to include a Present Integral Derivative (PID) 
+        <p>To run the oven, it was important to include a Present Integral Derivative (PID)
           Controller and Pulse-Width Modulation (PWM) to the oven temperature controller
            to run the oven.  Recall that PID controller stands for Proportional, Integral,
            Derivative controller.  That is, the controller output of the PID algorithm is
