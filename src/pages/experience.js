@@ -1,8 +1,7 @@
 import React from 'react'
 import './Pages.css'
 
-import Dropdown from '../components/Dropdown/Dropdown'
-import EduCard from '../components/EduCard/EduCard'
+import Card from '../components/Card/Card'
 import SkillCard from '../components/SkillCard/SkillCard'
 import allExperience from '../data/experienceData'
 import allEducation from '../data/educationData'
@@ -15,56 +14,58 @@ const ExperiencePage = () => {
   const skills = []
   const achievements = []
 
-  for (const element of allExperience) {
+  for (const [index, element] of allExperience.entries()) {
     experience.push(
-      <Dropdown
+      <Card
           title={element.title}
           company={element.company}
           date={element.date}
           image={element.image}
+          subtitle={element.subtitle}
           description={element.description}
-          key={element.title}
+          key={element.title + index}
       />
     )
   }
 
-  for (const element of allEducation) {
+  for (const [index, element] of allEducation.entries()) {
     education.push(
-      <EduCard
-          title={element.title}
-          company={element.company}
-          date={element.date}
-          image={element.image}
-          subTitle={element.subTitle}
-          key={element.title}
+      <Card
+        title={element.title}
+        company={element.company}
+        date={element.date}
+        image={element.image}
+        subtitle={element.subtitle}
+        description={element.description}
+        key={element.title + index}
       />
     )
   }
 
-  for (const element of allSkills) {
+  for (const [index, element] of allSkills.entries()) {
     skills.push(
       <SkillCard
           category={element.category}
           image={element.image}
           skills={element.skills}
-          key={element.category}
+          key={element.category + index}
       />
     )
   }
 
-  for (const element of allAchievements) {
+  for (const [index, element] of allAchievements.entries()) {
     achievements.push(
-            <EduCard
-                title={element.company}
-                company={element.title}
-                date={element.date}
-                image={element.image}
-                subTitle={element.subTitle}
-                key={element.title}
-            />
+      <Card
+        title={element.title}
+        company={element.company}
+        date={element.date}
+        image={element.image}
+        subtitle={element.subtitle}
+        description={element.description}
+        key={element.title + index}
+      />
     )
   }
-
   return (
     <>
         <h1>Experience</h1>
