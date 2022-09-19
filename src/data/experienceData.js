@@ -4,7 +4,7 @@ import mines from '../images/mines.jpg'
 
 const allExperience = [
   {
-    title: 'Technical College Intern - Tooling',
+    title: 'Mechanical Engineering Intern - Tooling',
     company: 'Northrop Grumman',
     date: 'June 2022 - Present',
     image: northropGrumman,
